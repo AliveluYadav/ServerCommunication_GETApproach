@@ -14,6 +14,8 @@
 		D4673AB5208854DB00156A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4673AB3208854DB00156A8D /* LaunchScreen.storyboard */; };
 		D4673AC0208854DB00156A8D /* ServerCommunication_GET_ApproachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4673ABF208854DB00156A8D /* ServerCommunication_GET_ApproachTests.swift */; };
 		D4673ACB208854DB00156A8D /* ServerCommunication_GET_ApproachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4673ACA208854DB00156A8D /* ServerCommunication_GET_ApproachUITests.swift */; };
+		D4673AD9208865CD00156A8D /* TopFreeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4673AD8208865CD00156A8D /* TopFreeTableVC.swift */; };
+		D4673ADB2088666000156A8D /* TopFreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4673ADA2088666000156A8D /* TopFreeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D4673AC6208854DB00156A8D /* ServerCommunication_GET ApproachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ServerCommunication_GET ApproachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4673ACA208854DB00156A8D /* ServerCommunication_GET_ApproachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommunication_GET_ApproachUITests.swift; sourceTree = "<group>"; };
 		D4673ACC208854DB00156A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4673AD8208865CD00156A8D /* TopFreeTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFreeTableVC.swift; sourceTree = "<group>"; };
+		D4673ADA2088666000156A8D /* TopFreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFreeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D4673AB1208854DB00156A8D /* Assets.xcassets */,
 				D4673AB3208854DB00156A8D /* LaunchScreen.storyboard */,
 				D4673AB6208854DB00156A8D /* Info.plist */,
+				D4673AD8208865CD00156A8D /* TopFreeTableVC.swift */,
+				D4673ADA2088666000156A8D /* TopFreeCell.swift */,
 			);
 			path = "ServerCommunication_GET Approach";
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4673AAD208854DB00156A8D /* ViewController.swift in Sources */,
+				D4673ADB2088666000156A8D /* TopFreeCell.swift in Sources */,
+				D4673AD9208865CD00156A8D /* TopFreeTableVC.swift in Sources */,
 				D4673AAB208854DB00156A8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
